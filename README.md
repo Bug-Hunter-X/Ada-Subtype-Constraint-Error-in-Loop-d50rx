@@ -1,0 +1,1 @@
+This repository demonstrates a common but subtle error in Ada programming related to subtypes and range constraints. The `bug.ada` file contains code that can raise a `Constraint_Error` exception if the loop increment causes the `My_Variable` to exceed the subtype range. The `bugSolution.ada` file provides a corrected version with robust error handling.
